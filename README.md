@@ -25,3 +25,5 @@ Output:
 ```
 HlloeorlWd
 ```
+
+Struktogramm : https://drive.google.com/file/d/1yS_EBvdAtrqjDO2N5O3otu4wbRv8hS1Z/view?usp=sharing
