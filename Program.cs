@@ -1,9 +1,15 @@
-﻿using System;
+﻿// Version 0.0.0
+
+using System;
 
 namespace wordTwister
 {
     class Program
     {
+        /// <summary>
+        /// Entry point of the app
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
            Console.Write("Geben Sie das Wort ein: "); 
@@ -11,6 +17,11 @@ namespace wordTwister
             Console.WriteLine(wordMixing(str)); 
         }
 
+        /// <summary>
+        /// Mixes the chars of a given word except the first and last letter as string and returns it as string 
+        /// </summary>
+        /// <param name="startingWord"></param>
+        /// <returns></returns>
         static string wordMixing(string startingWord) {
             Random random = new Random();
 
